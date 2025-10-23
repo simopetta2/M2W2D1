@@ -71,7 +71,7 @@ ESERCIZIO 2
 //     console.log(i, ' numero dispari')
 //   }
 // }
-  
+
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
@@ -82,16 +82,16 @@ ESERCIZIO 2
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
- let num = 7;
- let num2 = 15;
- let somma = num + num2;
- let sottrazione = Math.abs(num - num2);
-  if ( num == 8 || num2 == 8 || somma == 8 || sottrazione == 8) {
-    console.log('uno dei valori è 8 oppure la loro addizione/sottrazione è uguale a 8')
+//  let num = 7;
+//  let num2 = 15;
+//  let somma = num + num2;
+//  let sottrazione = Math.abs(num - num2);
+//   if ( num == 8 || num2 == 8 || somma == 8 || sottrazione == 8) {
+//     console.log('uno dei valori è 8 oppure la loro addizione/sottrazione è uguale a 8')
 
-  } else {
-    console.log('uno dei due non è 8 oppure la loro addizione/sottrazione è uguale a 8')
-  }
+//   } else {
+//     console.log('uno dei due non è 8 oppure la loro addizione/sottrazione è uguale a 8')
+//   }
 
 
 
@@ -103,6 +103,16 @@ Crea un algoritmo che determini l'ammontare totale che deve essere addebitato al
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+// let totalShoppingCart = 20;
+// let shipping = 10;
+// let somma = totalShoppingCart + shipping;
+
+// if (totalShoppingCart <= 49) {
+//   console.log(somma,'euro','Costo con spedizione')
+// } else {
+//   console.log(totalShoppingCart,'euro','Spedizione Gratuita')
+// }
+
 /* ESERCIZIO EXTRA 3
   Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando, usando l'algoritmo del codice precedente, se le spedizioni siano gratuite oppure no e e calcolando il totale.
@@ -110,6 +120,15 @@ Crea un algoritmo che determini l'ammontare totale che deve essere addebitato al
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+// let totalShoppingCart = 60;
+// let discount = totalShoppingCart - (totalShoppingCart * 20 / 100);
+// let shipping = 10;
+// let somma = discount + shipping;
+// if (discount <= 49) {
+//   console.log(somma, 'euro', 'Costo con pedizione')
+// } else {
+//   console.log(discount, 'euro', 'Spedizione Gratuita')
+// }
 /*  ESERCIZIO EXTRA 4
   Usa un operatore ternaio per assegnare ad una variabile chiamata "gender" i valori "male" o "female".
   La scelta deve essere basata sul valore di un'altra variabile booleana chiamata isMale.
@@ -121,3 +140,4 @@ Crea un algoritmo che determini l'ammontare totale che deve essere addebitato al
 /* ESERCIZIO EXTRA 5
   Scrivi un algoritmo che iteri i numeri da 1 a 100, stampandoli in console. Se un valore tuttavia è multiplo di 3 (operatore modulo!), stampa al suo posto la parola "Fizz" e se il numero è multiplo di 5, stampa "Buzz". Se le condizioni si verificano entrambe, stampa "FizzBuzz".
 */
+
